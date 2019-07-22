@@ -1,2 +1,5 @@
 resources:
 - install-config.yaml
+- rt/machine-config-pool.yaml
+patches:
+- rt/inject-worker-rt.patch.yaml
