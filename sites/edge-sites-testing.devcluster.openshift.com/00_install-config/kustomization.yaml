@@ -1,5 +1,5 @@
 bases:
-- git::https://gerrit.akraino.org/r/kni/blueprint-pae.git//profiles/production.aws/00_install-config
+- github.com/yrobla/blueprint-pae.git//profiles/production.aws/00_install-config
 
 patches:
 - install-config.patch.yaml
